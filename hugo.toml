@@ -1,4 +1,39 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://omega-sus67.github.io/omegaTechBlogs/'
 locale = 'en-us'
-title = 'techBlogs'
+title = "Omega's Tech Blog"
 theme = 'PaperMod'
+
+[params]
+env = 'production'
+title = "Omega's Tech Blog"
+description = "Welcome to my digital garden. I write about software engineering, AI agents, RAG systems, and modern web development."
+author = 'Omega'
+
+# Theme settings
+defaultTheme = 'auto' # dark, light, auto
+disableThemeToggle = false
+showShareButtons = true
+showCodeCopyButtons = true
+showToc = true
+TocOpen = false
+
+# Home info mode
+[params.homeInfoParams]
+Title = "Hi, I'm Omega 👋"
+Content = "Welcome to my tech blog. Here, I document my journey building AI systems, exploring advanced developer tooling, and writing code."
+
+# Social icons
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/omega-sus67'
+
+# Main Menu
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 10
+
+[[menu.main]]
+name = 'Tags'
+url = '/tags/'
+weight = 20
